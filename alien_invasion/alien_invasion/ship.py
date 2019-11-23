@@ -7,7 +7,7 @@ class Ship():
         self.screen = screen
 
         #Load ship image and get its rect
-        self.image = pygame.image.load('/Users/yojim/Desktop/Coding/Python/Crash Course/alien_invasion/alien_invasion/images/rocket.bmp')
+        self.image = pygame.image.load('/Users/yojim/Desktop/Coding/Python/Crash Course/alien_invasion/alien_invasion/images/rocket1.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
